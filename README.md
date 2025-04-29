@@ -1,6 +1,3 @@
----
-
-```markdown
 # Maisha Pesa - Multi-Role Order Management System
 
 This is a full-featured order workflow platform for organizations where different actors participate in the lifecycle of an order. It includes:
