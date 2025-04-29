@@ -77,13 +77,25 @@ service cloud.firestore {
 
 ```
 
-### 3. Add Firebase config
+---
 
-Create a file at:
+### 3. Environment Variables Setup
 
-```ts
-src/common/services/firebase.ts
+Add your environment variables into a `.env` file at the root:
+
 ```
+VITE_FIREBASE_API_KEY=your-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+VITE_FIREBASE_APP_ID=your-app-id
+VITE_FIREBASE_MEASUREMENT_ID=your-measurement-id
+```
+
+(Use the values from Firebase Console → Project Settings)
+
+---
 
 Paste your Firebase config:
 
