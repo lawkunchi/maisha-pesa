@@ -23,7 +23,7 @@ This is a full-featured order workflow platform for organizations where differen
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/your-username/maisha-pesa.git
+git clone https://github.com/lawkunchi/maisha-pesa.git
 cd maisha-pesa
 npm install
 ```
@@ -181,3 +181,7 @@ src/
 | 📊 Admin dashboard       | Revenue summary panel with total per actor                |
 
 ---
+
+
+## Loom Video
+https://www.loom.com/share/b61f83ed8d2c4588b226944702fd73ad?sid=5f122a22-da51-4c7b-8777-10229ae0e519
