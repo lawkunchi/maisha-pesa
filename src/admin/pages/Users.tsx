@@ -94,7 +94,7 @@ export default function Users() {
                   <TableCell>{user.email}</TableCell>
                   <TableCell>{user.role}</TableCell>
                   <TableCell>
-                    {user.approved ? "Approved" : "Unapproved"}
+                    {user.approved ? "Approved" : ""}
                   </TableCell>
                   <TableCell align="right">
                     <Button
@@ -102,7 +102,7 @@ export default function Users() {
                       size="small"
                       onClick={() => toggleApproval(user)}
                     >
-                      {user.approved ? "Unapprove" : "Approve"}
+                      {user.approved ? "Disapprove" : "Approve"}
                     </Button>
                   </TableCell>
                 </TableRow>
